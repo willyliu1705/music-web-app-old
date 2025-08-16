@@ -47,5 +47,5 @@ window.addEventListener("load", () => {
 
         // Remove splash after fade completes (matches CSS)
         setTimeout(() => splash.style.display = "none", 800);
-    }, 800); // <-- change 2000 to longer/shorter time in ms
+    }, 700); // <-- change 2000 to longer/shorter time in ms
 });
