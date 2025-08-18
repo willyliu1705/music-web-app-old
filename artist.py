@@ -4,6 +4,7 @@ import base64
 from requests import post
 from requests import get
 import json
+from pyscript import document
 
 load_dotenv()
 
@@ -56,8 +57,9 @@ token = get_token()
 result = search_for_artist(token, "Imagine Dragons")
 artist_id = result["id"]
 songs = get_songs_by_artist(token, artist_id)
-
+combined = ''
 for idx, song in enumerate(songs):
   print(f"{idx + 1}. {song['name']}")
-
+  
+  
 
