@@ -1,7 +1,7 @@
 async function suggestMusic() {
   const artistName = document.getElementById("songInput").value;
 
-    const response = await fetch("http://localhost:3000/search", {  // <-- make sure this points to backend
+  const response = await fetch("http://localhost:3000/search", {  // <-- make sure this points to backend
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ artist: artistName }),
