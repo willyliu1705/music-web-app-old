@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css">
     <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
 </head>
+
 <body>
     <!-- Splash Screen -->
     <div id="splash">
@@ -20,32 +22,33 @@
     </header>
 
     <main>
-    <!-- Box 1: Text or Link Input -->
-    <div class="input-box">
-        <h2>Search by Song or Link</h2>
-        <input type="text" id="songInput" placeholder="Enter song name or link">
-        <button onclick="suggestMusic()">Get Suggestions</button>
-    </div>
+        <!-- Box 1: Text or Link Input -->
+        <div class="input-box">
+            <h2>Search by Song or Link</h2>
+            <input type="text" id="songInput" placeholder="Enter song name or link">
+            <button onclick="suggestMusic()">Get Suggestions</button>
+        </div>
 
-    <!-- Box 2: File Upload Input -->
-    <div class="input-box">
-        <h2>Upload an Audio File</h2>
-        <input type="file" id="audioInput" accept="audio/*">
-        <button onclick="suggestFromFile()">Analyze & Suggest</button>
-    </div>
+        <!-- Box 2: File Upload Input -->
+        <div class="input-box">
+            <h2>Upload an Audio File</h2>
+            <input type="file" id="audioInput" accept="audio/*">
+            <button onclick="suggestFromFile()">Analyze & Suggest</button>
+        </div>
 
-    <!-- Results Display -->
-    <div id="results"></div>
+        <!-- Results Display -->
+        <div id="results"></div>
     </main>
 
+    <!---
     <footer>
         <p>Music Suggestion Demo Test</p>
     </footer>
+    -->
+
     <!-- JavaScript -->
     <script src="script.js"></script>
-    <!-- PyScript -->
-     <div id="pythonarea"></div>
-    <py-script src="main.py"></py-script>
 
 </body>
+
 </html>
