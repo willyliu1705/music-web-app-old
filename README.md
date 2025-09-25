@@ -27,5 +27,5 @@ This is a lightweight web application that was specifically created to help user
 
 # Contributors
 
-William (Full Stack Programmer)
+William (Full Stack Programmer)  
 Brian (AI/ML Engineer)
