@@ -20,6 +20,7 @@ This is a lightweight web application that was specifically created to help user
 - generate a playlist of similar songs based on an imported a playlist
 - export a playlist to a user's preferred streaming service for music
 - a recommendation form that allows users to provide feedback and report bugs
+- option to play a snippet of the most "popular" or "recognized" part of a song
 
 ## IMPORTANT NOTICE
 
